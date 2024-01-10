@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <section className="h-screen -mt-16 text-white flex flex-col-reverse md:flex-row items-center justify-center md:justify-normal md:px-4">
+        <section id='home' className="h-screen md:-mt-10 -mt-16 text-white flex flex-col-reverse md:flex-row items-center justify-center md:justify-normal md:px-4">
             {/* Left Section */}
             <div className="flex md:ml-32 mt-2 md:mt-0">
                 <div className="flex md:flex-col gap-3">
@@ -14,10 +14,10 @@ const Home = () => {
 
             {/* Middle Section */}
             <div className="md:ml-32 text-center mt-4 md:mt-0 md:flex flex-col">
-                <h1 className="md:text-5xl text-3xl font-semibold md:text-left">Deepak Lohar</h1>
+                <h1 className="md:text-4xl text-2xl font-semibold md:text-left font-serif">Deepak Lohar</h1>
                 <p className="md:text-2xl text-lg md:mt-2 md:text-left">Web Developer</p>
-                <p className="md:text-lg text-sm -mt-2 md:mt-0 md:w-[36rem] w-80 font-poppins md:text-left">I'm a full stack web developer from Udaipur, Rajasthan, and I'm very passionate and dedicated to my work.</p>
-                <button className='bg-sky-700 hover:bg-sky-600 h-11 w-32 rounded-lg md:mt-8 mt-4 font-poppins' type='button'>Say hello <i className="fa-regular fa-paper-plane ml-2"></i></button>
+                <p className="md:text-lg text-sm -mt-2 md:mt-0 md:w-[36rem] w-72 font-poppins md:text-left">I'm a full stack web developer from Udaipur, Rajasthan, and I'm very passionate and dedicated to my work.</p>
+                <button className='bg-indigo-900 hover:bg-indigo-700 h-11 w-32 rounded-lg md:mt-8 mt-4 font-poppins' type='button'>Say hello <i className="fa-regular fa-paper-plane ml-2"></i></button>
             </div>
 
             {/* Right Section */}

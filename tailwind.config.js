@@ -13,7 +13,8 @@ export default {
         PlayfairDisplay: ['Playfair Display', 'sans-serif']
       },
       backgroundColor: {
-        navcolor: 'rgb(18, 18, 62)'
+        navcolor: 'rgb(18, 18, 62)',
+        backcolor: 'rgb(0, 0, 33)'
       }
     },
   },

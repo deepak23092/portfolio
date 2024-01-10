@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section className='h-screen md:-mt-10 -mt-16 flex flex-col justify-center items-center text-white'>
+        <section id='about' className='flex flex-col justify-center items-center text-white md:scroll-mt-28 scroll-mt-24'>
             <div className='text-center font-poppins'>
                 <h1 className='md:text-4xl font-medium'>About Me</h1>
                 <p className='text-slate-300 md:text-lg text-sm -mt-2'>My introduction</p>
@@ -15,23 +15,23 @@ const About = () => {
                         <div className='bg-indigo-900 md:w-32 md:h-24 w-24 h-20 flex flex-col justify-center items-center rounded-xl'>
                             <i className="fa-solid fa-medal md:text-lg text-sm"></i>
                             <span className='mt-1 md:text-base text-sm'>Experience</span>
-                            <span className='md:text-xs text-[10px]'>1+ year</span>
+                            <span className='md:text-xs text-[10px] text-slate-300'>1+ year</span>
                         </div>
                         <div className='bg-indigo-900 md:w-32 md:h-24 w-24 h-20 flex flex-col justify-center items-center rounded-xl'>
                             <i className="fa-solid fa-suitcase md:text-lg text-sm"></i>
                             <span className='mt-1 md:text-base text-sm'>Completed</span>
-                            <span className='text-xs text-[10px]'>5+ Projects</span>
+                            <span className='md:text-xs text-[10px] text-slate-300'>5+ Projects</span>
                         </div>
                         <div className='bg-indigo-900 md:w-32 md:h-24 w-24 h-20 flex flex-col justify-center items-center rounded-xl'>
                             <i className="fa-solid fa-headset md:text-lg text-sm"></i>
                             <span className='mt-1 md:text-base text-sm'>Support</span>
-                            <span className='text-xs text-[10px]'>Online 24/7</span>
+                            <span className='md:text-xs text-[10px] text-slate-300'>Online 24/7</span>
                         </div>
                     </div>
                     <p className='md:w-[26rem] w-80 md:mb-5 mb-4 md:text-base text-sm md:text-left'>
                         Devoted MERN stack enthusiast. Crafting elegant, user-focused web solutions. Skilled in frontend and backend technologies, weaving creativity and efficiency into every project.
                     </p>
-                    <button className='bg-indigo-900 hover:bg-indigo-700 rounded-xl h-11 w-40'><a href='/files/Deepak resume.pdf' download='deepak resume.pdf' className='text-white no-underline'>Download CV <i class="fa-regular fa-file ml-1"></i></a></button>
+                    <button className='bg-indigo-900 hover:bg-indigo-700 rounded-xl h-11 w-40'><a href='/files/Deepak resume.pdf' download='deepak resume.pdf' className='text-white no-underline'>Download CV <i className="fa-regular fa-file ml-1"></i></a></button>
                 </div>
             </div>
         </section>

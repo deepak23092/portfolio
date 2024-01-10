@@ -8,5 +8,24 @@
     background-color: rgb(18, 18, 62);
 }
 
+.hover-move-right:hover .fa-arrow-right {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+}
+
+.qualification-rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.qualification-line {
+    display: block;
+    width: 1px;
+    height: 7rem;
+    transform: translate(6px, -7px);
+}
+
 @tailwind components;
 @tailwind utilities;
