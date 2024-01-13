@@ -14,25 +14,25 @@ const Projects = () => {
                     <div className='bg-indigo-900 font-poppins flex flex-col md:h-[18rem] h-[16.7rem] md:w-[22.4rem] w-80 p-4 rounded-2xl'>
                         <img src="../images/newsMonkey.png" alt="project 1" className='rounded-2xl h-48' />
                         <span className='mt-4'>News Monkey</span>
-                        <a href='' className='text-slate-300 md:text-sm text-xs mt-1 no-underline hover-move-right hover:text-slate-200'>Demo <i className="fa-solid fa-arrow-right text-xs ml-1"></i></a>
+                        <a className='text-slate-300 md:text-sm text-xs mt-1 no-underline hover-move-right hover:text-slate-200'>Demo <i className="fa-solid fa-arrow-right text-xs ml-1"></i></a>
                     </div>
 
                     <div className='bg-indigo-900 font-poppins flex flex-col md:h-[18rem] h-[16.7rem] md:w-[22.4rem] w-80 p-4 rounded-2xl'>
                         <img src="../images/breeze.png" alt="project 1" className='rounded-2xl h-48' />
                         <span className='mt-4'>Breeze - A Weather App</span>
-                        <a href='' className='text-slate-300 md:text-sm text-xs mt-1 no-underline hover-move-right hover:text-slate-200'>Demo <i className="fa-solid fa-arrow-right text-xs ml-1"></i></a>
+                        <a href='https://breeze-e07f4.web.app/' target='_blank' className='text-slate-300 md:text-sm text-xs mt-1 no-underline hover-move-right hover:text-slate-200'>Demo <i className="fa-solid fa-arrow-right text-xs ml-1"></i></a>
                     </div>
 
                     <div className='bg-indigo-900 font-poppins flex flex-col md:h-[18rem] h-[16.7rem] md:w-[22.4rem] w-80 p-4 rounded-2xl'>
                         <img src="../images/assetManagement.png" alt="project 1" className='rounded-2xl h-48' />
                         <span className='mt-4'>Asset Management</span>
-                        <a href='/' className='text-slate-300 md:text-sm text-xs mt-1 no-underline hover-move-right hover:text-slate-200'>Demo <i className="fa-solid fa-arrow-right text-xs ml-1"></i></a>
+                        <a target='_blank' className='text-slate-300 md:text-sm text-xs mt-1 no-underline hover-move-right hover:text-slate-200'>Demo <i className="fa-solid fa-arrow-right text-xs ml-1"></i></a>
                     </div>
 
                     <div className='bg-indigo-900 font-poppins flex flex-col md:h-[18rem] h-[16.7rem] md:w-[22.4rem] w-80 p-4 rounded-2xl'>
                         <img src="../images/cozy_shoe_shop.png" alt="project 1" className='rounded-2xl h-48' />
                         <span className='mt-4'>Cozy Shoe Shop</span>
-                        <a href='/' className='text-slate-300 md:text-sm text-xs mt-1 no-underline hover-move-right hover:text-slate-200'>Demo <i className="fa-solid fa-arrow-right text-xs ml-1"></i></a>
+                        <a target='_blank' className='text-slate-300 md:text-sm text-xs mt-1 no-underline hover-move-right hover:text-slate-200'>Demo <i className="fa-solid fa-arrow-right text-xs ml-1"></i></a>
                     </div>
 
                 </div>

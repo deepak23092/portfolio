@@ -38,13 +38,13 @@ const Qualification = () => {
 
                 {/* First Qualification (Left Side) */}
                 <div className='flex justify-end'>
-                    <div className='flex flex-col text-end'>
+                    <div className='flex flex-col text-end mr-5'>
                         <h6 className='md:text-base text-sm'>Elementary & Middle School</h6>
                         <span className='text-slate-300 md:text-sm text-xs'>Lav Kush Talent Academy, Salumber</span>
                         <span className='mt-2 text-slate-300 md:text-sm text-xs'>
                             <i className="fa-regular fa-calendar mr-1 md:text-sm text-xs"></i>2008-2018</span>
                     </div>
-                    <div className='absolute md:left-[22rem] left-[11.6rem]'>
+                    <div className='-mr-8'>
                         <span className='qualification-rounder bg-indigo-400'></span>
                         <span className='qualification-line bg-indigo-400'></span>
                     </div>
@@ -52,11 +52,11 @@ const Qualification = () => {
 
                 {/* Second Qualification (Right Side) */}
                 <div className='relative flex items-start mt-28'>
-                    <div className='absolute md:right-[22.5rem] right-[11.6rem]'>
+                    <div className='-ml-[1.8rem] md:-ml-[3.8rem]'>
                         <span className='qualification-rounder bg-indigo-400'></span>
                         <span className='qualification-line bg-indigo-400'></span>
                     </div>
-                    <div className='flex flex-col items-start'>
+                    <div className='flex flex-col items-start ml-5'>
                         <h6 className='md:text-base text-sm'>High School</h6>
                         <span className='text-slate-300 md:text-sm text-xs'>Guru Nanak Public School, Udaipur</span>
                         <span className='mt-2 text-slate-300 md:text-sm text-xs'>
@@ -67,15 +67,15 @@ const Qualification = () => {
                 </div>
 
                 {/* third Qualification (Left Side) */}
-                <div className='flex mt-8'>
-                    <div className='flex flex-col text-end'>
+                <div className='flex -mt-6'>
+                    <div className='flex flex-col text-end mr-5'>
                         <h6 className='md:text-base text-sm'>B.Tech, Computer Science & Engineering</h6>
                         <span className='text-slate-300 md:text-sm text-xs'>College of Technology & Engineering, Udaipur</span>
                         <span className='mt-2 text-slate-300 md:text-sm text-xs'>
                             <i className="fa-regular fa-calendar mr-1 md:text-sm text-xs"></i> 2021-present
                         </span>
                     </div>
-                    <div className='absolute md:left-[22rem] left-[11.6rem]'>
+                    <div className='-mr-8'>
                         <span className='qualification-rounder bg-indigo-400'></span>
                         <span className='qualification-line bg-indigo-400'></span>
                     </div>
@@ -87,13 +87,13 @@ const Qualification = () => {
 
                 {/* First Experience (Left Side) */}
                 <div className='flex justify-end'>
-                    <div className='flex flex-col text-end'>
+                    <div className='flex flex-col text-end mr-5'>
                         <h6 className='md:text-base text-sm'>Full Stack Development training</h6>
                         <span className='text-slate-300 md:text-sm text-xs'>Pregrad</span>
                         <span className='mt-2 text-slate-300 md:text-sm text-xs'>
                             <i className="fa-regular fa-calendar mr-1 md:text-sm text-xs"></i>June 2023 - Sept. 2023</span>
                     </div>
-                    <div className='absolute md:left-[17.6rem] left-[11.6rem]'>
+                    <div className='-mr-8'>
                         <span className='qualification-rounder bg-indigo-400'></span>
                         <span className='qualification-line bg-indigo-400'></span>
                     </div>
@@ -101,11 +101,11 @@ const Qualification = () => {
 
                 {/* Second Experience (Right Side) */}
                 <div className='relative flex items-start mt-28'>
-                    <div className='absolute md:right-[18.1rem] right-[11.6rem]'>
+                    <div className='-ml-[1.8rem] md:-ml-[3.8rem]'>
                         <span className='qualification-rounder bg-indigo-400'></span>
                         <span className='qualification-line bg-indigo-400'></span>
                     </div>
-                    <div className='flex flex-col items-start'>
+                    <div className='flex flex-col items-start ml-5'>
                         <h6 className='md:text-base text-sm'>Web Development Internship</h6>
                         <span className='text-slate-300 md:text-sm text-xs'>Virtual Coders, Ahmedabad</span>
                         <span className='mt-2 text-slate-300 md:text-sm text-xs'>

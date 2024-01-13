@@ -10,7 +10,7 @@ const Skills = () => {
 
             <div className='md:flex gap-12'>
 
-                <div className='bg-indigo-900 font-poppins flex flex-col items-center md:h-[19rem] h-64 md:w-[22.4rem] w-80 pt-4 rounded-3xl mb-6 md:mb-0'>
+                <div className='bg-indigo-900 font-poppins flex flex-col items-center lg:h-[19rem] md:h-72 h-64 lg:w-[22.4rem] w-80 pt-4 rounded-3xl mb-6 md:mb-0'>
                     <h6 className='mb-4 md:mt-5'>Frontend Developer</h6>
                     <div className='grid grid-cols-2 gap-6 md:gap-x-12 gap-x-10'>
                         <div className='flex'>
@@ -58,7 +58,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className='bg-indigo-900 font-poppins flex flex-col items-center md:h-[19rem] h-64 md:w-[22.4rem] w-80 pt-4 rounded-3xl mb-6 md:mb-0'>
+                <div className='bg-indigo-900 font-poppins flex flex-col items-center lg:h-[19rem] md:h-72 h-64 lg:w-[22.4rem] w-80 pt-4 rounded-3xl mb-6 md:mb-0'>
                     <h6 className='mb-4 md:mt-5'>Backend Developer</h6>
                     <div className='grid grid-cols-2 gap-6 md:gap-x-12 gap-x-10'>
                         <div className='flex'>
