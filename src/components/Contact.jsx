@@ -9,7 +9,7 @@ const Contact = () => {
                 <p className='text-slate-300 md:text-lg text-sm -mt-2'>Get in touch</p>
             </div>
 
-            <div className='flex flex-col md:flex-row gap-8 md:ml-14'>
+            <div className='flex flex-col md:flex-row lg:gap-20 gap-8 md:ml-14'>
 
                 <div className='flex flex-col items-center gap-6'>
                     <h5>Talk to me</h5>
@@ -37,15 +37,14 @@ const Contact = () => {
 
                 </div>
 
-                <div className='flex flex-col gap-6 items-center md:mt-0 mt-6'>
+                <div className='flex flex-col gap-6 items-center md:mt-0 mt-6 lg:mr-0 md:mr-5'>
                     <h5>Write me your project</h5>
 
-                    <form className='flex flex-col gap-4 md:w-3/4 w-5/6'
+                    <form className='flex flex-col gap-4 md:w-full w-11/12'
                         action='mailto:deepaklohar974@gmail.com'
                         method='post'
                         encType='text/plain'
                     >
-
                         <div className='relative mb-2'>
                             <label className='absolute top-[-0.80rem] left-5 text-sm p-1 bg-backcolor text-slate-300'>Name</label>
                             <input type="text" name='name' className='rounded-xl border-2 border-slate-400 bg-inherit outline-none text-slate-200 h-16 w-full p-4' placeholder='Insert your name' />
@@ -68,6 +67,7 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
+
             </div>
 
         </section>
